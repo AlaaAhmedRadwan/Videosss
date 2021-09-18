@@ -12,6 +12,8 @@ import java.util.concurrent.TimeUnit
 object ApiClient {
     private const val BASE_URL = "https://nagwa.free.beeceptor.com/"
 
+
+
     const val TIMEOUT = 30
     private var retrofit: Retrofit? = null
     private val okHttpClient: OkHttpClient
